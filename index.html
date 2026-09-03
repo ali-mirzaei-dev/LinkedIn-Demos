@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/StyleSheet/output.css">
+    <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
+
+</head>
+
+<body>
+
+    <body class="min-h-screen bg-zinc-950 text-white">
+
+        <!--==================#1 HEADER HTML ==================-->
+        <!--===================================================-->
+        <header class="border-b border-white/10">
+            <nav class="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
+
+                <a href="/" class="text-xl font-bold tracking-tight">
+                    Ali Mirzaei <span class="text-zinc-500">.</span>
+
+                </a>
+
+                <div class="flex items-center gap-6 text-sm text-zinc-400">
+
+                    <a
+                        href="https://github.com/ali-mirzaei-dev"
+                        target="_blank"
+                        class="transition hover:text-white">
+                        GitHub
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/ali-mirzaei-dev/"
+                        target="_blank"
+                        class="transition hover:text-white">
+                        LinkedIn
+                    </a>
+                    <a
+                        href="https://instagram.com/ali.mirzaei.dev"
+                        target="_blank"
+                        class="transition hover:text-white">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </nav>
+        </header>
+
+        <!--==================#2 CONTENT HTML ==================-->
+        <!--====================================================-->
+        <main>
+
+            <!--==================#2-1 HERO HTML ==================-->
+            <section class="mx-auto max-w-7xl px-6 pb-20 pt-28 lg:px-8 lg:pt-36">
+
+                <span class="text-sm font-medium uppercase tracking-[0.25em] text-zinc-500">
+                    Front-End Experiments
+                </span>
+
+                <h1 class="mt-5 text-5xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
+                    CSS & Tailwind
+                    <span class="text-zinc-500">Demos.</span>
+                </h1>
+
+                <p class="mt-6 max-w-2xl text-lg leading-8 text-zinc-400">
+                    A collection of small experiments and interactive examples
+                    created while exploring CSS and Tailwind CSS.
+                </p>
+
+            </section>
+
+
+            <!--==================#2-2 DEMOS HTML ==================-->
+            <section id="demos" class="mx-auto max-w-7xl px-6 pb-32 lg:px-8">
+
+                <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+
+                    <!-- has -->
+                    <a
+                        href="./has/"
+                        class="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 p-8 transition duration-500 hover:-translate-y-2 hover:border-white/20">
+
+                        <div class="flex items-center justify-between">
+
+                            <span class="text-xs font-medium uppercase tracking-[0.2em] text-zinc-500">
+                                CSS
+                            </span>
+
+                            <span class="text-zinc-600 transition duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-white">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <h2 class="mt-16 text-3xl font-semibold tracking-tight">
+                            :has()
+                        </h2>
+
+                        <p class="mt-3 text-sm leading-6 text-zinc-500">
+                            Exploring the CSS :has() relational pseudo-class.
+                        </p>
+
+                        <div class="mt-8 text-sm font-medium text-zinc-400 transition group-hover:text-white">
+                            View Demo →
+                        </div>
+
+                    </a>
+
+
+                    <!-- demo 2 -->
+                    <a
+                        href="#"
+                        class="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 p-8 transition duration-500 hover:-translate-y-2 hover:border-white/20">
+
+                        <div class="flex items-center justify-between">
+
+                            <span class="text-xs font-medium uppercase tracking-[0.2em] text-zinc-500">
+                                CSS
+                            </span>
+
+                            <span class="text-zinc-600 transition duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-white">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <h2 class="mt-16 text-3xl font-semibold tracking-tight">
+                            Your Demo
+                        </h2>
+
+                        <p class="mt-3 text-sm leading-6 text-zinc-500">
+                            Add a short description of your experiment here.
+                        </p>
+
+                        <div class="mt-8 text-sm font-medium text-zinc-400 transition group-hover:text-white">
+                            View Demo →
+                        </div>
+
+                    </a>
+
+                    <!-- demo 3 -->
+                    <a
+                        href="#"
+                        class="group relative overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 p-8 transition duration-500 hover:-translate-y-2 hover:border-white/20">
+
+                        <div class="flex items-center justify-between">
+
+                            <span class="text-xs font-medium uppercase tracking-[0.2em] text-zinc-500">
+                                TAILWIND
+                            </span>
+
+                            <span class="text-zinc-600 transition duration-300 group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-white">
+                                ↗
+                            </span>
+
+                        </div>
+
+                        <h2 class="mt-16 text-3xl font-semibold tracking-tight">
+                            Your Demo
+                        </h2>
+
+                        <p class="mt-3 text-sm leading-6 text-zinc-500">
+                            Add a short description of your experiment here.
+                        </p>
+
+                        <div class="mt-8 text-sm font-medium text-zinc-400 transition group-hover:text-white">
+                            View Demo →
+                        </div>
+
+                    </a>
+
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!--==================#3 FOOTER HTML ==================-->
+        <!--==================================================-->
+        <footer class="border-t border-white/10">
+
+            <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-8 text-sm text-zinc-600 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+
+                <p>
+                    © 2026 Ali Mirzaei
+                </p>
+
+                <div class="flex gap-5">
+
+                    <a
+                        href="https://github.com/ali-mirzaei-dev"
+                        target="_blank"
+                        class="transition hover:text-white">
+                        GitHub
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/ali-mirzaei-dev/"
+                        target="_blank"
+                        class="transition hover:text-white">
+                        LinkedIn
+                    </a>
+                    <a
+                        href="https://instagram.com/ali.mirzaei.dev"
+                        target="_blank"
+                        class="transition hover:text-white">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </body>
+</body>
+
+</html>
