@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Has</title>
+
+    <link rel="stylesheet" href="assets/StyleSheet/output.css">
+    <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
+
+</head>
+
+<body class="h-screen bg-zinc-950 text-white overflow-hidden flex flex-wrap content-between *:w-full">
+
+    <!--==================#1 HEADER HTML ==================-->
+    <!--===================================================-->
+    <header class="border-b-2 border-red-950/50 flex max-h-10/100">
+        <nav class="w-full mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
+            <a href="/" class="text-xl font-bold tracking-tight transition hover:text-red-700"> Ali Mirzaei <span class="text-red-800">.</span></a>
+            <div class="flex items-center gap-6 text-sm text-zinc-400">
+                <a href="https://github.com/ali-mirzaei-dev" target="_blank" class="transition hover:text-red-700"> GitHub</a>
+                <a href="https://www.linkedin.com/in/ali-mirzaei-dev/" target="_blank" class="transition hover:text-red-700"> LinkedIn</a>
+                <a href="https://instagram.com/ali.mirzaei.dev" target="_blank" class="transition hover:text-red-700"> Instagram</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================#2 MAIN HTML ====================-->
+    <!--===================================================-->
+    <main class="flex flex-wrap h-80/100 *:w-full">
+
+        <!--==================#2-1 TITLE HTML ==================-->
+        <section class="mx-auto max-w-7xl px-6 pt-10 lg:px-8">
+            <div class="flex items-center justify-between">
+                <div>
+                    <h1 class="text-2xl font-semibold tracking-tight">CSS <span class="text-red-700">:has()</span></h1>
+                    <p class="mt-1 text-sm text-zinc-500">The parent selector.</p>
+                </div>
+                <a href="../index.html" class="rounded-lg border border-red-950/50 px-4 py-2 text-sm text-zinc-400 transition duration-300 hover:border-red-800 hover:text-red-700"> ← Main Menu</a>
+        </section>
+
+        <!--==================#2-2 WHEEL HTML ==================-->
+        <section class="wheel group relative mx-auto h-120 w-full overflow-visible lg:w-1/2">
+
+            <!-- wheel -->
+            <div class="pointer-events-none absolute inset-0 animate-rotato1 *:absolute *:top-1/2 *:left-1/2 *:origin-center">
+
+                <!-- Item 1 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(0deg)_translateX(100px)_rotate(0deg)]">
+                    <figure class="group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1 hover:scale-120 hover:bg-amber-500">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/battle_cry.png" alt="">
+                    </figure>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(51.4deg)_translateX(100px)_rotate(-51.4deg)]">
+                    <figure class="group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1  hover:scale-120 hover:bg-amber-500 ">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/fireball.png" alt="">
+                    </figure>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(102.8deg)_translateX(100px)_rotate(-102.8deg)]">
+                    <figure class="group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1  hover:scale-120 hover:bg-amber-500 ">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/smite_hand2.png" alt="">
+                    </figure>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(154.2deg)_translateX(100px)_rotate(-154.2deg)]">
+                    <figure class="group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1  hover:scale-120 hover:bg-amber-500 ">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/vein_miner.png" alt="">
+                    </figure>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(205.7deg)_translateX(100px)_rotate(-205.7deg)]">
+                    <figure class="group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1  hover:scale-120 hover:bg-amber-500 ">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/nova.png" alt="">
+                    </figure>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(257.1deg)_translateX(100px)_rotate(-257.1deg)]">
+
+                    <figure class="group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1 hover:scale-120 hover:bg-amber-500">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/ghost_walk.png" alt="">
+                    </figure>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="transform-[translate(-50%,-50%)_rotate(308.5deg)_translateX(100px)_rotate(-308.5deg)]">
+                    <figure class=" group-has-[figure:hover]:blur-[3px] hover:blur-none! pointer-events-auto flex h-12 w-12 items-center justify-center rounded-lg bg-[#1a1a1a] duration-500 animate-counter1  hover:scale-120 hover:bg-amber-500 ">
+                        <img class="h-8 w-8 object-cover" src="assets/Images/thunderstorm.png" alt="">
+                    </figure>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================#3 FOOTER HTML ==================-->
+    <!--==================================================-->
+    <footer class="flex justify-center items-center border-t-red-950/50 border-t-2 max-h-10/100 py-6 text-zinc-600 ">
+        <p>© 2026 Ali Mirzaei</p>
+    </footer>
+</body>
+
+</html>
