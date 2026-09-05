@@ -29,29 +29,10 @@ Each demo focuses on a specific **CSS, Tailwind CSS, or front-end technique**.
 Linkedin-Demos/
 │
 ├── assets/
-│   ├── Images/
-│   │   └── ...
-│   │
-│   └── StyleSheet/
-│       ├── master.css
-│       └── output.css
 │
 ├── has/
-│   ├── assets/
-│   │   ├── Images/
-│   │   │   ├── battle_cry.png
-│   │   │   ├── fireball.png
-│   │   │   ├── ghost_walk.png
-│   │   │   ├── nova.png
-│   │   │   ├── smite_hand2.png
-│   │   │   ├── thunderstorm.png
-│   │   │   └── vein_miner.png
-│   │   │
-│   │   └── StyleSheet/
-│   │       ├── master.css
-│   │       └── output.css
-│   │
-│   └── index.html
+│
+├── downloads/
 │
 └── index.html
 ```
