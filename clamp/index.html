@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clamp</title>
+
+    <link rel="stylesheet" href="assets/StyleSheet/output.css">
+    <link rel="stylesheet" href="assets/Font/font/style.css">
+    <!-- npx @tailwindcss/cli -i ./assets/StyleSheet/master.css -o ./assets/StyleSheet/output.css --watch -->
+
+</head>
+
+<body class="h-screen bg-zinc-950 text-white overflow-hidden flex flex-wrap content-between *:w-full">
+
+    <!--==================#1 HEADER HTML ==================-->
+    <!--===================================================-->
+    <header class="border-b-2 border-red-950/50 flex max-h-10/100">
+        <nav class="w-full mx-auto flex max-w-7xl items-center justify-between px-6 py-6 lg:px-8">
+            <a href="/" class="text-xl font-bold tracking-tight transition hover:text-red-700"> Ali Mirzaei <span class="text-red-800">.</span></a>
+            <div class="flex items-center gap-6 text-sm text-zinc-400">
+                <a href="https://github.com/ali-mirzaei-dev" target="_blank" class="transition hover:text-red-700"> GitHub</a>
+                <a href="https://www.linkedin.com/in/ali-mirzaei-dev/" target="_blank" class="transition hover:text-red-700"> LinkedIn</a>
+                <a href="https://instagram.com/ali.mirzaei.dev" target="_blank" class="transition hover:text-red-700"> Instagram</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================#2 MAIN HTML ====================-->
+    <!--===================================================-->
+    <main class="flex flex-wrap h-80/100 *:w-full">
+
+        <!--==================#2-1 TITLE HTML ==================-->
+        <section class="mx-auto max-w-7xl px-6 pt-10 lg:px-8">
+            <div class="flex w-full items-center justify-between">
+
+                <div class="flex flex-wrap justify-center *:w-full">
+                    <h1 class="text-2xl font-semibold tracking-tight">CSS <span class="text-red-700">:has()</span></h1>
+                    <p class="mt-1 text-sm text-zinc-500">The parent selector.</p>
+                </div>
+                <a href="../index.html" class="flex items-center justify-center gap-1 rounded-lg border border-red-950/50 px-4 py-2 text-sm text-zinc-400 transition duration-300 hover:border-red-800 hover:text-red-700">
+                    <i class="icon"></i>
+                    Main Menu</a>
+
+            </div>
+        </section>
+
+        <!--==================#2-2 CLAMP DEMOS HTML ==================-->
+        <section></section>
+    </main>
+
+    <!--==================#3 FOOTER HTML ==================-->
+    <!--==================================================-->
+    <footer class="flex justify-center items-center border-t-red-950/50 border-t-2 max-h-10/100 py-6 text-zinc-600 ">
+        <p>© 2026 Ali Mirzaei</p>
+    </footer>
+</body>
+
+</html>
