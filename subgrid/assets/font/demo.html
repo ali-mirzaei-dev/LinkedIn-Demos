@@ -78,7 +78,7 @@ button._demo_glyph._demo_copied {
     top: 0;
     width: 50%;
 }
-body {--glyph-size: 30px;}#size {width: 5em;}#test {display: block;margin: 3rem 0 2rem;}#test textarea {font-size: var(--glyph-size);background: var(--background);color: var(--color);}#copy_settings, #toggles_wrapper, #toggles_wrapper label {display: flex;flex-wrap: wrap;align-items: center;}#copy_settings p {min-width: 100%;}#toggles_wrapper label {gap: 5px;}._demo_code {display: none;}input[type="checkbox"] {width: 16px;height: 16px;}:has(#codes:checked) ._demo_code {display: flex;align-items: center;margin: 10px 0 30px 8px;font-family: monospace !important;gap: 5px;width: 7em;color: var(--color);& input {width: 100%;}}</style>
+body {--glyph-size: 32px;}#size {width: 5em;}#test {display: block;margin: 3rem 0 2rem;}#test textarea {font-size: var(--glyph-size);background: var(--background);color: var(--color);}#copy_settings, #toggles_wrapper, #toggles_wrapper label {display: flex;flex-wrap: wrap;align-items: center;}#copy_settings p {min-width: 100%;}#toggles_wrapper label {gap: 5px;}._demo_code {display: none;}input[type="checkbox"] {width: 16px;height: 16px;}:has(#codes:checked) ._demo_code {display: flex;align-items: center;margin: 10px 0 30px 8px;font-family: monospace !important;gap: 5px;width: 7em;color: var(--color);& input {width: 100%;}}</style>
     <style>._demo_glyph .icon {white-space: pre}</style>
 </head>
 <body>
@@ -108,7 +108,7 @@ body {--glyph-size: 30px;}#size {width: 5em;}#test {display: block;margin: 3rem 
             any text:
         </p>
         <div data-lang="HTML">
-        <pre>&lt;span <em>class="icon"</em>&gt;&#xf516;&lt;/span&gt;</pre>
+        <pre>&lt;span <em>class="icon"</em>&gt;&#xf0d8;&lt;/span&gt;</pre>
         </div>
         <p>
             You could change the size of the glyph using the
@@ -120,14 +120,14 @@ body {--glyph-size: 30px;}#size {width: 5em;}#test {display: block;margin: 3rem 
 }
 </pre></div>
         <div data-lang="HTML">
-        <pre>&lt;span class="icon <em>my-size</em>"&gt;&#xf516;&lt;/span&gt;</pre>
+        <pre>&lt;span class="icon <em>my-size</em>"&gt;&#xf0d8;&lt;/span&gt;</pre>
         </div>
     </details>
     <details open>
         <noscript>
             <p>Enable JavaScript for easier copying of codes to clipboard.</p>
         </noscript>
-        <summary>List of Glyphs <small>(4)</small></summary>
+        <summary>List of Glyphs <small>(5)</small></summary>
         <div id="copy_settings" style="display: none">
             <label>
                 Click/tap on each glyph to copy:
@@ -140,7 +140,7 @@ body {--glyph-size: 30px;}#size {width: 5em;}#test {display: block;margin: 3rem 
             <br>
             <label>
                 Size:
-                <input id="size" type="number" value="30" min="8" max="99999" />
+                <input id="size" type="number" value="32" min="8" max="99999" />
             </label>
             <div id="toggles_wrapper">
               <label>
@@ -166,10 +166,11 @@ body {--glyph-size: 30px;}#size {width: 5em;}#test {display: block;margin: 3rem 
             </p>
         </div>
         <div class="_demo_glyphs">
-            <div><div class="_demo_glyph"><span class="icon">&#xf516;</span> icon-email</div><label class="_demo_code">U+ <input readonly value="f516" /></label></div>
-            <div><div class="_demo_glyph"><span class="icon">&#xf5c1;</span> icon-logo--instagram</div><label class="_demo_code">U+ <input readonly value="f5c1" /></label></div>
-            <div><div class="_demo_glyph"><span class="icon">&#xf7b0;</span> icon-logo--linkedin</div><label class="_demo_code">U+ <input readonly value="f7b0" /></label></div>
-            <div><div class="_demo_glyph"><span class="icon">&#xf477;</span> icon-logo--github</div><label class="_demo_code">U+ <input readonly value="f477" /></label></div>
+            <div><div class="_demo_glyph"><span class="icon">&#xf0d8;</span> icon-move-left</div><label class="_demo_code">U+ <input readonly value="f0d8" /></label></div>
+            <div><div class="_demo_glyph"><span class="icon">&#xf026;</span> icon-chevron-left</div><label class="_demo_code">U+ <input readonly value="f026" /></label></div>
+            <div><div class="_demo_glyph"><span class="icon">&#xf094;</span> icon-cloud-download</div><label class="_demo_code">U+ <input readonly value="f094" /></label></div>
+            <div><div class="_demo_glyph"><span class="icon">&#xf5ea;</span> icon-repo--source-code</div><label class="_demo_code">U+ <input readonly value="f5ea" /></label></div>
+            <div><div class="_demo_glyph"><span class="icon">&#xf15e;</span> icon-eye</div><label class="_demo_code">U+ <input readonly value="f15e" /></label></div>
         </div>
         <label id="test">
             Try the generated font:
@@ -190,10 +191,11 @@ body {--glyph-size: 30px;}#size {width: 5em;}#test {display: block;margin: 3rem 
         const htmlEntity = document.getElementById("html_entity");
         const wrapper = document.querySelector("._demo_glyphs");
         const names = {
-            0xf516: "email",
-            0xf5c1: "logo--instagram",
-            0xf7b0: "logo--linkedin",
-            0xf477: "logo--github"
+            0xf0d8: "move-left",
+            0xf026: "chevron-left",
+            0xf094: "cloud-download",
+            0xf5ea: "repo--source-code",
+            0xf15e: "eye"
         };
         const ligatures = {};
         document.getElementById("copy_settings").removeAttribute("style");
